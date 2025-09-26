@@ -9,6 +9,13 @@ Wav2Vec2 is a state-of-the-art self-supervised learning model developed by Faceb
 
 The architecture of wav2vec 2.0 ([source](https://proceedings.neurips.cc/paper/2020/file/92d1e1eb1cd6f9fba3227870bb6d7f07-Paper.pdf)). The model is composed of a convolutional feature extractor, and a transformer encoder. During fine-tuning, quantization is disabled and contrastive loss is replaced with the CTC loss function.
 
+##  Model Details
+
+- Model: Wav2Vec2 (Self-Supervised Learning)
+- Pretrained: facebook/wav2vec2-large-960h
+- Fine-tuning: Uses CTC loss for transcription
+- Input: Raw audio waveform (16kHz)
+- Output: Tokenized transcription
 
 ###  Key Features:
 - **Self-Supervised Learning**: Trains on unlabeled audio data.
@@ -28,6 +35,13 @@ For more details, visit the [Hugging Face Wav2Vec2 Documentation](https://huggin
 ##  Project Overview
 
 This project implements a real-time speech-to-text application using the Wav2Vec2 model. Built with Streamlit, it allows users to record audio directly from their browser and transcribe it into text in real-time.
+
+[![Python](https://img.shields.io/badge/python-3.10%20--%203.13-blue)](https://www.python.org/)  
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.38+-FF4B4B?logo=streamlit)](https://streamlit.io/)  
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.6+-EE4C2C?logo=pytorch)](https://pytorch.org/)  
+[![Transformers](https://img.shields.io/badge/Transformers-4.30+-purple?logo=HuggingFace)](https://huggingface.co/docs/transformers/index)  
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 
 ---
 
@@ -95,6 +109,28 @@ Open the provided local URL in your browser to start using the app.
 
 ---
 
+##  Use Cases
+
+- Real-time note-taking while speaking
+- Accessibility for hearing-impaired users
+- Voice-controlled applications
+- Multilingual speech recognition demos
+
+---
+
+##  Future Improvements
+
+- Add punctuation and capitalization restoration
+- Continuous streaming transcription
+- Support for more languages
+- Web deployment on Streamlit Cloud
+
+---
+##  Getting Help
+
+For questions, suggestions, or issues, feel free to open an issue or contact me via email: **mr.sourav.sharma.01@gmail.com**
+
+---
 
 ## Contributing
 Contributions are welcome!
@@ -108,7 +144,6 @@ Contributions are welcome!
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
 
 
 
