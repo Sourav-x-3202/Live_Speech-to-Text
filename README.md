@@ -1,5 +1,3 @@
-
-sourav sharma is my name 
 #  Real-Time Speech-to-Text App with Wav2Vec2
 
 ##  About Wav2Vec2
