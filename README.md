@@ -27,6 +27,7 @@ The architecture of wav2vec 2.0 ([source](https://proceedings.neurips.cc/paper/2
 - **facebook/wav2vec2-large-960h**: Fine-tuned on 960 hours of LibriSpeech data.
 - **facebook/wav2vec2-xls-r-300m**: Trained on 436K hours of multilingual speech data for cross-lingual ASR.
 - **facebook/wav2vec2-large-xlsr-53**: Trained on 53 languages for multilingual ASR.
+- 
 
 For more details, visit the [Hugging Face Wav2Vec2 Documentation](https://huggingface.co/docs/transformers/en/model_doc/wav2vec2).
 
